@@ -30,6 +30,6 @@ expr: expr op=('*'|'/') expr
 
 //Definimos elementos finales
 ID: [-zA-Z][a-zA-Z_0-9]*;
-NEWLINE: [\n];
+NEWLINE: [\r\n];
 WS: [\t]-> skip;
 SEMI: ';';
